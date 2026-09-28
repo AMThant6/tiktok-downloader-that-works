@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtual environment - rebuild with: pip install -r requirements.txt
+.venv/
+venv/
+env/
+
+# Shareable build artefact (regenerate, don't commit)
+tiktok-downloader.zip
+
+# Local extraction of the zip, if you unzipped it in place
+tiktok-downloader/
+
+# Local agent workspace / notes - not part of the project
+.workbuddy-ai/
+
+# OS / editor noise
+Thumbs.db
+Desktop.ini
+.DS_Store
+.idea/
+.vscode/
+
+# NEVER commit cookies or captured sessions
+cookies.txt
+*.cookies.txt
+cookies.json
